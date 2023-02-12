@@ -101,5 +101,20 @@ sudo apt-get update
 
 sudo apt-get upgrade
 
+sudo add-apt-repository universe
+
+sudo apt-get update
+
+sudo apt install libmobiledevice-utils libusbmuxd git curl python3-pip -y
+
+wget http://nz2.archive.ubuntu.com/pool/main/libssl1.1_1.1.1f-lubuntu2.16_amd64.deb
+
+sudo dpkg -i libssl1.1_1.1.1f-lubuntu2.16_amd64.deb
+
 exit
+
+
+
+
+
 
